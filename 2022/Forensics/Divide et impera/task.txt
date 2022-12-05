@@ -1,0 +1,1 @@
+Our network traffic analysis engine discovered possible data exfiltration. Could you try to discover, what data was exfiltrated and find the flag?
