@@ -1,0 +1,4 @@
+CREATE DATABASE app;
+USE app;
+CREATE TABLE users (user varchar(10) NOT NULL, password varchar(100) NOT NULL);	
+INSERT INTO users (user, password) values ('Admin','Mikasaisthebestgirl!');

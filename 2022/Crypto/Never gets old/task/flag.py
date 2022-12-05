@@ -1,0 +1,1 @@
+flag = "flag{r5a_7a5k5_n3v3r_g37_0ld}"
