@@ -1,0 +1,5 @@
+Hello! We faced a security incident: an employee's workstation with many important financial data was encrypted. Before infection, the employee received an email with an excel file (we attached file in archive with password "infected"). Also on our corporate proxy server we found suspicious request from this workstation:
+
+GET 54.194.203.20:8080/CORPWORKSTATION410/U1wTFQJVB18CFkYIBBsERwIPSF5FAlJXAAdL HTTP/1.1
+
+We were able to get a decryptor, but we don't know where to get the encryption key. Please help us find it.
