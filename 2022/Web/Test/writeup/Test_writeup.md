@@ -1,4 +1,4 @@
-# Test task writeup
+# Test task writeup 
 
 Such a problem was discovered on a real project and was made in the form of a CTF task.
 
