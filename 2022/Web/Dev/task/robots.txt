@@ -1,0 +1,6 @@
+User-agent: Yandexbot
+Disallow: /
+
+#Good luck
+
+
