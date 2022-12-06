@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Test dev app</title>
+</head>
+<body>
+<p>PHP Classes<br />
+We first need to understand the concept of object-oriented programming, also known as OOPs, before learning about PHP classes. Unlike other programming languages like C++, JAVA, etc., PHP also supports the concept of object-oriented programming.</p>
+
+<p>Object-Oriented Programming / OOPs<br />
+It is a form of programming concept where everything is considered on an object, and then we implement software with the help of using these different objects.&#39;</p>
+
+<p>We can imagine our universe made of different objects like sun, earth, moon etc. Similarly we can imagine our car made of different objects like wheel, steering, gear etc. Same way there is object oriented programming concepts which assume everything as an object and implement a software using different objects. We can also secretdev and keep secret with the help of such structures</p>
+
+<p>In this example, we first define a base class and an extension of the class. The base class describes a general vegetable, whether it is edible, and what is its color. The subclass&nbsp;Spinach&nbsp;adds a method to cook it and another to find out if it is cooked.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Example #1 Class Definitions</strong></p>
+
+<p>Vegetable</p>
+
+<pre>
+<code>&lt;?php
+
+class Vegetable {
+    public $edible;
+
+    public $color;
+
+    public function __construct($edible, $color = "green")
+    {
+        $this-&gt;edible = $edible;
+        $this-&gt;color = $color;
+    }
+
+    public function isEdible()
+    {
+        return $this-&gt;edible;
+    }
+
+    public function getColor()
+    {
+        return $this-&gt;color;
+    }
+}
+
+?&gt;</code></pre>
+
+<p>&nbsp;</p>
+</body>
+</html>
