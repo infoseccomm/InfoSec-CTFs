@@ -1,0 +1,6 @@
+
+ * This is needed to stop compilers complaining about the 'struct ssl_st *'
+ * function parameters used to prototype callbacks in SSL_CTX.
+ */
+typedef struct ssl_st *ssl_crock_st;
+typedef struct tls_
