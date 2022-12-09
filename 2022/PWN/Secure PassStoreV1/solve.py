@@ -13,12 +13,12 @@ ONE_GAD = 0xda837
 
 
 def conn():
-    if args.LOCAL:
-        r = process([elf.path])
+    if args.REMOTE:
+        r = remote(b'0.cloud.chals.io', 12367)
     elif args.D:
         r = gdb.debug(elf.path, 'c')
     else:
-        r = remote(b'0.cloud.chals.io', 12367)
+        r = process([elf.path])
 
     return r
 
